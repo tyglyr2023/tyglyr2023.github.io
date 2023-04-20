@@ -1,3 +1,4 @@
-http://example.com/2023/04/20/test-my-site/
-http://example.com/2023/04/20/hello-world/
-http://example.com/
+https://tyglyr2023.github.io/2023/04/20/Homepage/
+https://tyglyr2023.github.io/2023/04/20/test-my-site/
+https://tyglyr2023.github.io/2023/04/20/hello-world/
+https://tyglyr2023.github.io/
