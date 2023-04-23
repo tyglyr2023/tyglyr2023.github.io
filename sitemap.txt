@@ -1,5 +1,9 @@
+https://tyglyr2023.github.io/Publications/index.html
+https://tyglyr2023.github.io/Awards/index.html
+https://tyglyr2023.github.io/Teaching/index.html
+https://tyglyr2023.github.io/Projects/index.html
+https://tyglyr2023.github.io/2023/04/20/test-my-site/
 https://tyglyr2023.github.io/test/index.html
-https://tyglyr2023.github.io/2023/04/24/projects/index/
 https://tyglyr2023.github.io/2023/04/20/Homepage/
 https://tyglyr2023.github.io/2023/04/20/hello-world/
 https://tyglyr2023.github.io/
