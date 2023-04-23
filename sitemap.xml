@@ -2,15 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://tyglyr2023.github.io/Publications/index.html</loc>
-    
-    <lastmod>2023-04-23</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://tyglyr2023.github.io/Awards/index.html</loc>
     
     <lastmod>2023-04-23</lastmod>
@@ -20,7 +11,7 @@
   </url>
   
   <url>
-    <loc>https://tyglyr2023.github.io/Teaching/index.html</loc>
+    <loc>https://tyglyr2023.github.io/Projects/index.html</loc>
     
     <lastmod>2023-04-23</lastmod>
     
@@ -29,7 +20,16 @@
   </url>
   
   <url>
-    <loc>https://tyglyr2023.github.io/Projects/index.html</loc>
+    <loc>https://tyglyr2023.github.io/Publications/index.html</loc>
+    
+    <lastmod>2023-04-23</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://tyglyr2023.github.io/Teaching/index.html</loc>
     
     <lastmod>2023-04-23</lastmod>
     
