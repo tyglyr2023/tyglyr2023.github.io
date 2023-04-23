@@ -242,6 +242,7 @@ body {
   line-height: 1.5;
   font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
   scroll-behavior: smooth;
+  text-align-last: justify;
 }
 a,
 span,
