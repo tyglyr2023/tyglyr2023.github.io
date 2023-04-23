@@ -37,12 +37,20 @@
   </entry>
   
   <entry>
-    <title>test_my_site</title>
-    <link href="https://tyglyr2023.github.io/2023/04/20/test-my-site/"/>
-    <id>https://tyglyr2023.github.io/2023/04/20/test-my-site/</id>
-    <published>2023-04-20T15:24:24.000Z</published>
-    <updated>2023-04-20T15:24:24.100Z</updated>
+    <title>Homepage</title>
+    <link href="https://tyglyr2023.github.io/2023/04/20/projects/index/"/>
+    <id>https://tyglyr2023.github.io/2023/04/20/projects/index/</id>
+    <published>2023-04-20T15:47:11.000Z</published>
+    <updated>2023-04-23T07:01:22.014Z</updated>
     
+    <content type="html"><![CDATA[<p>project1<br>project2</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;project1&lt;br&gt;project2&lt;/p&gt;
+</summary>
+      
     
     
     
