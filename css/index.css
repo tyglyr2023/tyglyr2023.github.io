@@ -234,7 +234,6 @@ html {
   box-sizing: border-box;
 }
 body {
-  padding-top: 20px;
   height: 100%;
   margin: 0;
   padding: 0;
@@ -266,15 +265,13 @@ blockquote p {
   margin: 0;
 }
 #page_header {
-  position: fixed;
-  top: 50px;
-  z-index: 9999;
   position: relative;
   border-bottom: 1px solid #f2f3f3;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
+  z-index: 20;
 }
 .header_wrap {
   max-width: 1200px;
