@@ -960,7 +960,7 @@ blockquote p {
 }
 .nav_items li a:hover {
   color: #5c6266;
-  background: #dee0e1;
+  background: #50fa7b;
 }
 .nav_items::before {
   content: "";
