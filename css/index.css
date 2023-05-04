@@ -427,7 +427,7 @@ blockquote p {
     transform: scaleX(0);
   }
   .menus_items li a:hover {
-    color: #5c6266;
+    color: #50fa7b;
   }
   .menus_items li a:hover::before {
     -webkit-transform: scaleX(1);
@@ -532,7 +532,7 @@ blockquote p {
 }
 .side-card .card-wrap {
   padding-left: 10px;
-  margin-top: 25px;
+  margin-top: 0px;
 }
 .side-card img {
   width: 100%;
