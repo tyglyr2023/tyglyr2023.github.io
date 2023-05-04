@@ -283,6 +283,7 @@ blockquote p {
   margin-right: auto;
   clear: both;
   font-size: 2.4rem;
+  height: 45px;
 }
 #blog_name {
   display: inline-block;
@@ -292,14 +293,15 @@ blockquote p {
 #blog_name a {
   display: block;
   margin: 0 1.6rem;
-  padding: 0.8rem 0;
+}
+#    padding: 0.8rem 0; {
   color: #7a8288;
   font-weight: 600;
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
-#blog_name a:hover {
+#    padding: 0.8rem 0;:hover {
   color: #000;
 }
 @media (max-width: 34em) {
