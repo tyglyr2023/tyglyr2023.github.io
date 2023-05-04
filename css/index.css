@@ -250,6 +250,7 @@ a,
 span,
 .btn {
   font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  color: #50fa7b;
 }
 img {
   max-width: 100%;
@@ -534,7 +535,7 @@ blockquote p {
 }
 .side-card .card-wrap {
   padding-left: 10px;
-  margin-top: 25px;
+  margin-top: 0px;
 }
 .side-card img {
   width: 100%;
@@ -565,6 +566,7 @@ blockquote p {
 .author-discrip h3 {
   margin: 0px;
   font-size: 1.8rem;
+  color: #f1fa8c;
 }
 .author-discrip .author-bio {
   font-size: 1.2rem;
@@ -669,7 +671,7 @@ blockquote p {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #000;
+  color: #c0c0c0;
   width: 1.28571em;
   text-align: center;
   -webkit-transition: all 0.2s ease-in-out;
@@ -678,7 +680,7 @@ blockquote p {
 .social-icons .fa:hover,
 .social-icons .fas:hover,
 .social-icons .fab:hover {
-  color: #c62641;
+  color: #50fa7b;
 }
 .is-open .social-icons {
   visibility: visible;
@@ -692,7 +694,7 @@ blockquote p {
   transition: all 0.2s ease-in-out;
 }
 .social-links .e-social-link {
-  color: #000;
+  color: #50fa7b;
 }
 .social-links .e-social-link .fa,
 .social-links .e-social-link .fas,
@@ -763,6 +765,7 @@ blockquote p {
     font-size: 1.4rem;
     margin-top: 8px;
     margin-bottom: 10px;
+    color: #f8f8f2;
   }
   .author-links {
     display: block;
