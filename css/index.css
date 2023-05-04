@@ -710,6 +710,7 @@ blockquote p {
 .social-links .e-social-link .fas,
 .social-links .e-social-link .fab {
   padding-right: 0.5rem;
+  color: #09a5f7;
 }
 .social-links .e-social-link:hover span {
   text-decoration: underline;
