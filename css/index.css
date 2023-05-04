@@ -242,6 +242,7 @@ body {
   line-height: 1.5;
   font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
   scroll-behavior: smooth;
+  text-align: justify;
 }
 a,
 span,
@@ -264,21 +265,24 @@ blockquote p {
   margin: 0;
 }
 #page_header {
-  position: relative;
+  position: fixed;
   border-bottom: 1px solid #f2f3f3;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
-  z-index: 20;
+  z-index: 9999;
+  background: #282a36;
+  width: 100%;
+  top: 0px;
+  font-size: 2.4rem;
 }
 .header_wrap {
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   clear: both;
-  padding: 1.6rem 2rem 1rem;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 #blog_name {
   display: inline-block;
@@ -309,44 +313,46 @@ blockquote p {
     opacity: 0;
     position: absolute;
     right: 10px;
-    margin: 0;
-    box-shadow: rgba(0,0,0,0.25) 0px 0px 10px;
-    padding: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #f2f3f3;
-    border-image: initial;
-    border-radius: 4px;
-    background: #fff;
-    list-style: none;
-    transition: all ease-in-out 0.2s;
-    pointer-events: none;
   }
-  .menus_items::before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: calc(50% + 15px);
-    width: 0px;
-    z-index: 0;
-    border-style: solid;
-    border-width: 0px 10px 10px;
-    border-color: #fff transparent;
-  }
-  .menus_items li {
-    display: block;
-    border-bottom: 1px solid #f2f3f3;
-  }
-  .menus_items li a {
-    display: block;
-    color: #7a8288;
-    font-size: 1.6rem;
-    margin: 0px;
-    padding: 8px 15px;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out 0s;
-  }
+}
+#   margin: 0; {
+  margin-left: 20px;
+  box-shadow: rgba(0,0,0,0.25) 0px 0px 10px;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f2f3f3;
+  border-image: initial;
+  border-radius: 4px;
+  background: #fff;
+  list-style: none;
+  transition: all ease-in-out 0.2s;
+  pointer-events: none;
+}
+#   margin: 0;::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: calc(50% + 15px);
+  width: 0px;
+  z-index: 0;
+  border-style: solid;
+  border-width: 0px 10px 10px;
+  border-color: #fff transparent;
+}
+#   margin: 0; li {
+  display: block;
+  border-bottom: 1px solid #f2f3f3;
+}
+#   margin: 0; li a {
+  display: block;
+  color: #7a8288;
+  font-size: 1.6rem;
+  margin: 0px;
+  padding: 8px 15px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out 0s;
 }
 .menus_icon {
   display: inline-block;
@@ -448,6 +454,7 @@ blockquote p {
 .page article {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
+  margin-top: 37px;
 }
 .page article h1 {
   font-size: 3rem;
@@ -713,7 +720,7 @@ blockquote p {
     transition: opacity 0.2s ease-in-out;
   }
   .side-card .card-wrap {
-    padding: 10px 10px 10px 17px;
+    padding: 30px 10px 10px 17px;
   }
   .sticky {
     clear: both;
@@ -728,7 +735,7 @@ blockquote p {
     display: block;
     width: auto;
     height: auto;
-    text-align: center;
+    text-align: start;
   }
   .author-avatar img {
     padding: 5px;
