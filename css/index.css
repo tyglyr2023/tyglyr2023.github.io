@@ -240,7 +240,7 @@ body {
   color: #282a36;
   font-size: 1.8em;
   line-height: 1.5;
-  background-color: #212121;
+  background-color: #282a36;
   font-family: 'JetBrains Mono', '华文中宋', monospace;
   color: #f8f8f2;
   scroll-behavior: smooth;
@@ -526,7 +526,7 @@ blockquote p {
     width: 82.5%;
     float: right;
     margin-right: 0;
-    background-color: #282a36;
+    background-color: #212121;
   }
   .page .page-title {
     padding: 0 3.6rem;
