@@ -275,7 +275,6 @@ blockquote p {
   background: #282a36;
   width: 100%;
   top: 0px;
-  padding-left: 167px;
   font-size: 2.4rem;
 }
 .header_wrap {
@@ -285,6 +284,7 @@ blockquote p {
   clear: both;
   padding: 1.6rem 2rem 1rem;
   font-size: 2rem;
+  height: 19px;
 }
 #blog_name {
   display: inline-block;
@@ -300,6 +300,8 @@ blockquote p {
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  margin-left: 15px;
+  margin-top: -20px;
 }
 #blog_name a:hover {
   color: #000;
@@ -393,6 +395,8 @@ blockquote p {
     list-style-type: none;
     margin: 0;
     clear: both;
+    margin-left: 38px;
+    margin-top: -20px;
   }
   .menus_items li {
     display: table-cell;
@@ -526,6 +530,7 @@ blockquote p {
 }
 .side-card .card-wrap {
   padding-left: 10px;
+  margin-top: 25px;
 }
 .side-card img {
   width: 100%;
