@@ -527,6 +527,7 @@ blockquote p {
     float: right;
     margin-right: 0;
     background-color: #212121;
+    margin-bottom: -62px;
   }
   .page .page-title {
     padding: 0 3.6rem;
