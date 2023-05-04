@@ -303,9 +303,10 @@ blockquote p {
   transition: all 0.2s ease-in-out;
   margin-left: 15px;
   margin-top: -20px;
+  color: #f1fa8c;
 }
 #blog_name a:hover {
-  color: #000;
+  color: #50fa7b;
 }
 @media (max-width: 34em) {
   .menus-open .menus_items {
