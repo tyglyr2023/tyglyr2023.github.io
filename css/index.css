@@ -872,7 +872,7 @@ blockquote p {
   position: absolute;
   height: 30px;
   width: 30px;
-  background-color: #7a8288;
+  background-color: #50fa7b;
   color: #fff;
   cursor: pointer;
   padding: 0px 0.3rem;
@@ -993,13 +993,14 @@ blockquote p {
   margin-top: 3px;
   width: 30px;
   height: 30px;
-  background-color: #7a8288;
-  color: #fff;
+  background-color: #50fa7b;
+  color: #f8f8f2;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   line-height: 29px;
   cursor: pointer;
+  margin-right: 10px;
 }
 ::-webkit-scrollbar {
   width: 12px;
@@ -1011,4 +1012,8 @@ blockquote p {
 }
 ::-webkit-scrollbar-thumb {
   background-color: rgba(122,130,136,0.4);
+}
+strong {
+  color: #bd93f9;
+  font-weight: bold;
 }
