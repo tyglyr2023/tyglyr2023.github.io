@@ -807,12 +807,12 @@ blockquote p {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  color: #9ba1a6;
+  color: #f8f8f2;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: #f2f3f3;
+  background-color: #ee6e73;
   border-top: 1px solid #bdc1c4;
 }
 #page_footer a {
