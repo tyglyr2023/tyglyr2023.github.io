@@ -237,7 +237,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: #494e52;
+  color: #282a36;
   font-size: 1.8em;
   line-height: 1.5;
   background-color: #212121;
@@ -526,6 +526,7 @@ blockquote p {
     width: 82.5%;
     float: right;
     margin-right: 0;
+    background-color: #282a36;
   }
   .page .page-title {
     padding: 0 3.6rem;
