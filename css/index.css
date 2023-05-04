@@ -240,11 +240,10 @@ body {
   color: #494e52;
   font-size: 1.8em;
   line-height: 1.5;
-  background-color: #212121;
   font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
-  color: #f8f8f2;
   scroll-behavior: smooth;
   text-align: justify;
+  background-color: #212121;
 }
 a,
 span,
@@ -420,7 +419,7 @@ blockquote p {
     left: 0;
     bottom: 0;
     height: 4px;
-    background: #50fa7b;
+    background: #bdc1c4;
     width: 100%;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -429,7 +428,7 @@ blockquote p {
     transform: scaleX(0);
   }
   .menus_items li a:hover {
-    color: #50fa7b;
+    color: #5c6266;
   }
   .menus_items li a:hover::before {
     -webkit-transform: scaleX(1);
@@ -534,7 +533,7 @@ blockquote p {
 }
 .side-card .card-wrap {
   padding-left: 10px;
-  margin-top: 0px;
+  margin-top: 25px;
 }
 .side-card img {
   width: 100%;
