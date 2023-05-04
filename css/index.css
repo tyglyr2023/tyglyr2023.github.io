@@ -275,6 +275,7 @@ blockquote p {
   background: #282a36;
   width: 100%;
   top: 0px;
+  padding-left: 167px;
   font-size: 2.4rem;
 }
 .header_wrap {
@@ -282,7 +283,8 @@ blockquote p {
   margin-left: auto;
   margin-right: auto;
   clear: both;
-  font-size: 2.4rem;
+  padding: 1.6rem 2rem 1rem;
+  font-size: 2rem;
 }
 #blog_name {
   display: inline-block;
@@ -316,7 +318,7 @@ blockquote p {
   }
 }
 #   margin: 0; {
-  margin-left: 20px;
+  margin-left: 2px;
   box-shadow: rgba(0,0,0,0.25) 0px 0px 10px;
   padding: 5px;
   border-width: 1px;
