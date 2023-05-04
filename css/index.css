@@ -241,7 +241,7 @@ body {
   font-size: 1.8em;
   line-height: 1.5;
   background-color: #212121;
-  font-family: 'JetBrains Mono', monospace;
+  font-family: 'JetBrains Mono', '华文中宋', monospace;
   color: #f8f8f2;
   scroll-behavior: smooth;
   text-align: justify;
