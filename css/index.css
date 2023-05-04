@@ -279,6 +279,7 @@ blockquote p {
   width: 100%;
   top: 0px;
   font-size: 2.4rem;
+  background-color: #ee6e73;
 }
 .header_wrap {
   max-width: 1200px;
@@ -414,6 +415,7 @@ blockquote p {
     padding: 0.8rem 0;
     color: #f8f8f2;
     text-decoration: none;
+    font-family: 'Consolas', '隶书';
   }
   .menus_items li a::before {
     content: "";
@@ -814,12 +816,12 @@ blockquote p {
   border-top: 1px solid #bdc1c4;
 }
 #page_footer a {
-  color: #9ba1a6;
+  color: #50fa7b;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 #page_footer a:hover {
-  color: #000;
+  color: #50fa7b;
 }
 .footer_wrap {
   max-width: 600px;
