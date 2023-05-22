@@ -1,4 +1,3 @@
-/*小屏幕下(手机类)的样式*/
 @media only screen and (max-width: 601px) {
   .side-card .card-wrap {
     margin-top: 50px;
@@ -378,7 +377,7 @@ blockquote p {
   transition: all 0.2s ease-in-out 0s;
 }
 .menus_icon {
-  display: inline-block;
+  display: none;
   position: absolute;
   right: 30px;
   top: 22px;
