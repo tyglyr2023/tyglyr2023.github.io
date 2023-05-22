@@ -237,10 +237,12 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  color: #494e52;
+  color: #282a36;
   font-size: 1.8em;
   line-height: 1.5;
-  font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  background-color: #282a36;
+  font-family: 'JetBrains Mono', '华文中宋', monospace;
+  color: #f8f8f2;
   scroll-behavior: smooth;
   text-align: justify;
 }
@@ -248,6 +250,7 @@ a,
 span,
 .btn {
   font-family: "Times New Roman", FangSong, STFangsong, sans-serif;
+  color: #50fa7b;
 }
 img {
   max-width: 100%;
@@ -272,6 +275,11 @@ blockquote p {
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 9999;
+  background: #282a36;
+  width: 100%;
+  top: 0px;
+  font-size: 2.4rem;
+  background-color: #ee6e73;
 }
 .header_wrap {
   max-width: 1200px;
@@ -279,7 +287,9 @@ blockquote p {
   margin-right: auto;
   clear: both;
   padding: 1.6rem 2rem 1rem;
-  font-size: 2rem;
+  font-size: 2.3rem;
+  height: 19px;
+  font-size: 2.3rem;
 }
 #blog_name {
   display: inline-block;
@@ -295,9 +305,12 @@ blockquote p {
   text-decoration: none;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
+  margin-left: 15px;
+  margin-top: -20px;
+  color: #f1fa8c;
 }
 #blog_name a:hover {
-  color: #000;
+  color: #50fa7b;
 }
 @media (max-width: 34em) {
   .menus-open .menus_items {
@@ -310,44 +323,46 @@ blockquote p {
     opacity: 0;
     position: absolute;
     right: 10px;
-    margin: 0;
-    box-shadow: rgba(0,0,0,0.25) 0px 0px 10px;
-    padding: 5px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: #f2f3f3;
-    border-image: initial;
-    border-radius: 4px;
-    background: #fff;
-    list-style: none;
-    transition: all ease-in-out 0.2s;
-    pointer-events: none;
   }
-  .menus_items::before {
-    display: block;
-    content: "";
-    position: absolute;
-    top: -10px;
-    left: calc(50% + 15px);
-    width: 0px;
-    z-index: 0;
-    border-style: solid;
-    border-width: 0px 10px 10px;
-    border-color: #fff transparent;
-  }
-  .menus_items li {
-    display: block;
-    border-bottom: 1px solid #f2f3f3;
-  }
-  .menus_items li a {
-    display: block;
-    color: #7a8288;
-    font-size: 1.6rem;
-    margin: 0px;
-    padding: 8px 15px;
-    text-decoration: none;
-    transition: all 0.2s ease-in-out 0s;
-  }
+}
+#   margin: 0; {
+  margin-left: 2px;
+  box-shadow: rgba(0,0,0,0.25) 0px 0px 10px;
+  padding: 5px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f2f3f3;
+  border-image: initial;
+  border-radius: 4px;
+  background: #fff;
+  list-style: none;
+  transition: all ease-in-out 0.2s;
+  pointer-events: none;
+}
+#   margin: 0;::before {
+  display: block;
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: calc(50% + 15px);
+  width: 0px;
+  z-index: 0;
+  border-style: solid;
+  border-width: 0px 10px 10px;
+  border-color: #fff transparent;
+}
+#   margin: 0; li {
+  display: block;
+  border-bottom: 1px solid #f2f3f3;
+}
+#   margin: 0; li a {
+  display: block;
+  color: #7a8288;
+  font-size: 1.6rem;
+  margin: 0px;
+  padding: 8px 15px;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out 0s;
 }
 .menus_icon {
   display: inline-block;
@@ -386,6 +401,8 @@ blockquote p {
     list-style-type: none;
     margin: 0;
     clear: both;
+    margin-left: 38px;
+    margin-top: -20px;
   }
   .menus_items li {
     display: table-cell;
@@ -396,8 +413,9 @@ blockquote p {
     display: block;
     margin: 0 1.6rem;
     padding: 0.8rem 0;
-    color: #7a8288;
+    color: #f8f8f2;
     text-decoration: none;
+    font-family: 'Consolas', '隶书';
   }
   .menus_items li a::before {
     content: "";
@@ -405,7 +423,7 @@ blockquote p {
     left: 0;
     bottom: 0;
     height: 4px;
-    background: #bdc1c4;
+    background: #50fa7b;
     width: 100%;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
@@ -414,7 +432,7 @@ blockquote p {
     transform: scaleX(0);
   }
   .menus_items li a:hover {
-    color: #5c6266;
+    color: #50fa7b;
   }
   .menus_items li a:hover::before {
     -webkit-transform: scaleX(1);
@@ -449,6 +467,7 @@ blockquote p {
 .page article {
   padding-left: 1.2rem;
   padding-right: 1.2rem;
+  margin-top: 37px;
 }
 .page article h1 {
   font-size: 3rem;
@@ -458,6 +477,11 @@ blockquote p {
 }
 .page article h3 {
   font-size: 2.6rem;
+  color: #8be9fd;
+}
+.page article h4 {
+  font-size: 2rem;
+  color: #8be9fd;
 }
 .page article p,
 .page article li {
@@ -502,6 +526,8 @@ blockquote p {
     width: 82.5%;
     float: right;
     margin-right: 0;
+    background-color: #212121;
+    margin-bottom: -62px;
   }
   .page .page-title {
     padding: 0 3.6rem;
@@ -518,6 +544,8 @@ blockquote p {
 }
 .side-card .card-wrap {
   padding-left: 10px;
+  margin-top: 0px;
+  background-color: #44475a;
 }
 .side-card img {
   width: 100%;
@@ -548,6 +576,7 @@ blockquote p {
 .author-discrip h3 {
   margin: 0px;
   font-size: 1.8rem;
+  color: #f1fa8c;
 }
 .author-discrip .author-bio {
   font-size: 1.2rem;
@@ -652,7 +681,7 @@ blockquote p {
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: #000;
+  color: #c0c0c0;
   width: 1.28571em;
   text-align: center;
   -webkit-transition: all 0.2s ease-in-out;
@@ -661,7 +690,7 @@ blockquote p {
 .social-icons .fa:hover,
 .social-icons .fas:hover,
 .social-icons .fab:hover {
-  color: #c62641;
+  color: #50fa7b;
 }
 .is-open .social-icons {
   visibility: visible;
@@ -675,18 +704,19 @@ blockquote p {
   transition: all 0.2s ease-in-out;
 }
 .social-links .e-social-link {
-  color: #000;
+  color: #50fa7b;
 }
 .social-links .e-social-link .fa,
 .social-links .e-social-link .fas,
 .social-links .e-social-link .fab {
   padding-right: 0.5rem;
+  color: #09a5f7;
 }
 .social-links .e-social-link:hover span {
   text-decoration: underline;
 }
 .cv-links {
-  color: #096494 !important;
+  color: #09a5f7 !important;
   display: inline-block;
   position: relative;
   font-size: 1.4rem;
@@ -714,7 +744,7 @@ blockquote p {
     transition: opacity 0.2s ease-in-out;
   }
   .side-card .card-wrap {
-    padding: 10px 10px 10px 17px;
+    padding: 30px 10px 10px 17px;
   }
   .sticky {
     clear: both;
@@ -729,7 +759,7 @@ blockquote p {
     display: block;
     width: auto;
     height: auto;
-    text-align: center;
+    text-align: start;
   }
   .author-avatar img {
     padding: 5px;
@@ -746,6 +776,7 @@ blockquote p {
     font-size: 1.4rem;
     margin-top: 8px;
     margin-bottom: 10px;
+    color: #f8f8f2;
   }
   .author-links {
     display: block;
@@ -785,21 +816,21 @@ blockquote p {
   float: left;
   margin-left: 0;
   margin-right: 0;
-  color: #9ba1a6;
+  color: #f8f8f2;
   -webkit-animation: intro 0.3s both;
   animation: intro 0.3s both;
   -webkit-animation-delay: 0.45s;
   animation-delay: 0.45s;
-  background-color: #f2f3f3;
+  background-color: #ee6e73;
   border-top: 1px solid #bdc1c4;
 }
 #page_footer a {
-  color: #9ba1a6;
+  color: #50fa7b;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 #page_footer a:hover {
-  color: #000;
+  color: #50fa7b;
 }
 .footer_wrap {
   max-width: 600px;
@@ -844,7 +875,7 @@ blockquote p {
   position: absolute;
   height: 30px;
   width: 30px;
-  background-color: #7a8288;
+  background-color: #50fa7b;
   color: #fff;
   cursor: pointer;
   padding: 0px 0.3rem;
@@ -932,7 +963,7 @@ blockquote p {
 }
 .nav_items li a:hover {
   color: #5c6266;
-  background: #dee0e1;
+  background: #50fa7b;
 }
 .nav_items::before {
   content: "";
@@ -965,13 +996,14 @@ blockquote p {
   margin-top: 3px;
   width: 30px;
   height: 30px;
-  background-color: #7a8288;
-  color: #fff;
+  background-color: #50fa7b;
+  color: #f8f8f2;
   text-align: center;
   text-decoration: none;
   font-size: 16px;
   line-height: 29px;
   cursor: pointer;
+  margin-right: 10px;
 }
 ::-webkit-scrollbar {
   width: 12px;
@@ -983,4 +1015,8 @@ blockquote p {
 }
 ::-webkit-scrollbar-thumb {
   background-color: rgba(122,130,136,0.4);
+}
+strong {
+  color: #bd93f9;
+  font-weight: bold;
 }

@@ -1,3 +1,15 @@
+/*小屏幕下(手机类)的样式*/
+@media only screen and (max-width: 601px) {
+  .side-card .card-wrap {
+    margin-top: 50px;
+  }
+}
+/*中等屏幕下(平板类)的样式*/
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .side-card .card-wrap {
+    margin-top: 50px;
+  }
+}
 .page pre,
 .page .highlight {
   overflow: auto;
@@ -317,6 +329,7 @@ blockquote p {
     visibility: visible;
     opacity: 1;
     pointer-events: auto;
+    background-color: #44475a;
   }
   .menus_items {
     visibility: hidden;
@@ -377,6 +390,7 @@ blockquote p {
   padding: 0px 0.3rem;
   border-width: 0px;
   outline: none;
+  display: none;
 }
 .menus-open .navicon {
   background: transparent;
