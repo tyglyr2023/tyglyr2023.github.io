@@ -1,10 +1,4 @@
-@media only screen and (max-width: 601px) {
-  .side-card .card-wrap {
-    margin-top: 50px;
-  }
-}
-/*中等屏幕下(平板类)的样式*/
-@media only screen and (min-width: 600px) and (max-width: 992px) {
+@media (max-width: 34em) {
   .side-card .card-wrap {
     margin-top: 50px;
   }
